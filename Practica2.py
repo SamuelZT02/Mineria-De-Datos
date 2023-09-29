@@ -18,3 +18,4 @@ ruta_archivo_limpios = 'C:/Users/Lenovo e570/Desktop/Semestres/Septimo Semestre/
 df_cleaned.to_csv(ruta_archivo_limpios, index=False)
 
 print("Archivo CSV con datos limpios guardado como 'tu_archivo_limpios.csv'")
+
