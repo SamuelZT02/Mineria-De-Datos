@@ -14,4 +14,5 @@ if response.status_code == 200:
         file.write(response.content)
     print(f"El archivo CSV se ha descargado en {csv_download_path}.")
 else:
+
     print("Error al descargar el archivo. Código de estado:", response.status_code)
