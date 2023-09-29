@@ -26,7 +26,7 @@ resultados = pd.concat([medallero_por_edicion, media_por_pais, rango_edad_por_pa
 resultados.to_csv('resultados.csv', index=True)
 
 # Imprimir resultados
-pd.set_option('display.max_columns', None)  # Para mostrar todas las columnas
+pd.set_option('display.max_columns', None)  
 print("Resultados guardados en 'resultados.csv'")
 
 print("Medallero por edición:")
